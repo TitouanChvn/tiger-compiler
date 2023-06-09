@@ -1,9 +1,9 @@
 # PCL 1
 
-Dépôt GIT pour le projet PCL1 
+Dépôt GIT initialement pour le projet PCL1 
 Membres du groupe: Océane Avila, Mathilde Bard, Titouan Chauvineau, Aurélien Troncy 
 
-
+git com
 
 ## Tuto lancement du compilateur
 
@@ -14,10 +14,10 @@ make parser
 ```
 
 ```bash
-make compilateur
+make compile
 ```
 
 ```bash
-make run target
+make good
 ```
-où target et le chemin vers votre fichier cible
+
