@@ -1,0 +1,15 @@
+let 
+    var x:int:=1
+    var y:int:=2
+
+    function function1(entier: int):int = (
+        let 
+            type repetition = { a: int, b: int }
+            var rep :repetition := repetition {a=entier,b=entier}
+        in
+            rep.b=rep.b-2
+        end  
+    )
+in 
+    function1(x)
+end

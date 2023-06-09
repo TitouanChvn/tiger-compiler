@@ -1,0 +1,9 @@
+let
+   var a : int := 1
+   var b : string := 2
+in
+    if (a) then
+        a
+    else 
+        b
+end

@@ -1,0 +1,20 @@
+let 
+    type float = {x:int, y:int}
+in
+    let 
+        function entier(f : float) : int = f.x
+        function fraction(f : float) : int = f.y
+        function addition(f1 : float, f2 : float) : float = float {x = entier(f1) + entier(f2), y = fraction(f1) + fraction(f2)}
+    in
+        let 
+            function main() : int = 
+            let 
+                var f1 : float := (1; 2)
+            in
+                entier(f1)
+            end
+        in
+            main()
+        end
+    end
+end

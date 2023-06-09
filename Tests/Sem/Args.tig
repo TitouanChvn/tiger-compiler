@@ -1,0 +1,6 @@
+let
+    var a:string := "hello"
+    function add(x:int, y:int):int = x + y
+in
+    add(a, 2)
+end

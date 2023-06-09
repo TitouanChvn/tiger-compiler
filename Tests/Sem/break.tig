@@ -1,0 +1,7 @@
+let
+    var a : int :=0
+in
+    for i := 0 to a do (
+        break
+    )
+end

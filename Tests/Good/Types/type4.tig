@@ -1,0 +1,5 @@
+let
+    function add(x: int, y: int) : int = x + y
+ in
+    print(add(3, 4))
+ end

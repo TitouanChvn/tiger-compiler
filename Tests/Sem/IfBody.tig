@@ -1,0 +1,6 @@
+let
+    var a : int := 1
+in
+    if a then
+        a+1
+end

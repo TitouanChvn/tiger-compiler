@@ -1,0 +1,7 @@
+let
+    var a: string := "hello"
+in
+    if a then (
+        1
+    )
+end

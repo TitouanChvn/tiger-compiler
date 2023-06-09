@@ -1,0 +1,8 @@
+let 
+    function multiplication(a:int,b:int):int= 
+        a * b
+in 
+    multiplication(3,4)
+end 
+
+    

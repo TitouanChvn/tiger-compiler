@@ -1,0 +1,6 @@
+let
+    type Coordinate = { x: int , y: int }
+    var p:= Coordinate { x=1 , y=2}
+in
+   p.x=2*p.x
+end

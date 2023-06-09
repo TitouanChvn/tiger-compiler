@@ -1,0 +1,12 @@
+let
+    var a:int := 0
+in
+    if 
+        a=0 
+    then
+        a=5 
+    else 
+        while a<5 
+        do a:=a+1
+    
+end

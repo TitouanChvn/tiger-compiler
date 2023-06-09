@@ -1,0 +1,9 @@
+let 
+    var res=0
+    function multiplication(a:int,b:int)= 
+        a * b
+in 
+    multiplication(3,4)
+end 
+
+    

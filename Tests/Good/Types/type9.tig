@@ -1,0 +1,8 @@
+let
+    type int = { x: int }
+    var p: int := (2)
+    var q: int := 3
+    var int :string := "2"
+in
+ 
+end

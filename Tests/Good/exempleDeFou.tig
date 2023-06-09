@@ -1,0 +1,27 @@
+/* Exemple de fou furieux */
+
+let 
+    var a : int := 0
+    var b : int := 0
+    var c : int := 0
+in
+    let 
+        /*
+
+        */
+        var r : int := 0
+        function russianmult(x : int, y : int) : int =
+        (while x<>0 do (
+            if (x / 2 * 2) <> x then (
+                r := r + y ;
+                x := x + 1
+            ) ;
+            x := x / 2 ;
+            y := y * 2
+        );
+        r)
+        
+    in
+        russianmult(3, 4)
+    end
+end

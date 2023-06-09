@@ -1,0 +1,64 @@
+/* Exemple final pour le projet PCL */
+
+let
+    var zero : int := 0
+    var un : int := 1
+    var hello : string := "Hello World"
+
+    type Float = {x:int, y:int} 
+    var f1 : Float := Float {x=0, y=0}
+    var f2 : Float := Float {x=0} /* Erreur Nb de champ*/
+    var f3 : NEG := -1 /* Erreur Type Non def */
+
+    function oui(x:int):string = "oui"
+
+    function add(x:Float, y:Float) : Float = Float {x=x.x+y.x, y=x.y+y.y} /* Erreur Double declaration de fonction */
+    function add(x:Float, y:Float) : Float = Float {x=0, y=1}
+    function sub(x:int) = x-1 /* Erreur procedure */
+    function p(x:int):int = "oui" /* Erreur Type de retour */
+
+    var prem : int := 1
+    var prem : int := 2 /* Erreur Double declaration de variable */
+
+in
+    prem/0; /* Erreur Division par 0 */
+
+    hello := 1; /* Erreur Type d'affectation*/
+
+    oui(); /* Mauvais argument donné à la fonction oui */
+
+    non(); /* Fonction non définie */ 
+
+    while un do ( /* Corps boucle wild void */
+        zero
+    );
+
+    while hello do ( /* Erreur Type de condition */
+        nil
+    );
+
+    -"hello"; /* Erreur type - */
+
+    hello + 1; /* Erreur type + */
+
+    if hello then ( /* Erreur Type de condition */
+        nil
+    ) else (
+        nil
+    );
+
+    if un then ( /* Corps then doit être de type void */
+        zero
+    );
+
+    if un then ( /* Corps then et else doivent être de même type */
+        hello
+    ) else (
+        zero
+    );
+    
+    break; /* Break hors boucle */
+
+    f1.C /* Erreur de champ non definit */
+    
+end

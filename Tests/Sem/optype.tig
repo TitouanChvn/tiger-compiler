@@ -1,0 +1,13 @@
+let
+    var a : int := 0
+    var b : int := 1
+    var c : string := "Hello"
+    var d : string := "World"
+in
+    a+b;
+    c+d;
+    a/b;
+    a&b;
+    c&d
+    
+end

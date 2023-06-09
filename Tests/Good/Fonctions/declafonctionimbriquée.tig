@@ -1,0 +1,10 @@
+let 
+    function prem(a:int, b:int):int=
+        let 
+            function sec (c:int,d:int):int=c*d
+        in 
+            sec(a,a+b)
+        end
+in 
+    prem(2,5)
+end

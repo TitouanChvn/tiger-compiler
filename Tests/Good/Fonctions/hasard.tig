@@ -1,0 +1,7 @@
+let 
+    function hasard (n:int) : int =
+        if n>4
+            then 3
+in
+    hasard(6)
+end

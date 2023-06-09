@@ -1,0 +1,9 @@
+let 
+    type intv = {a:int,b:int}
+    var b : int := 10
+    function test(a:int,b:int,c:int):int=
+    a+b*-c
+    function testbis(d:intv,e:int,f:int,g:int):int=test(d,e,f)/g-g
+in 
+    testbis(20,15,10,5)
+end 

@@ -1,0 +1,6 @@
+let
+    var x: int := 3
+    var s: string := "coucou"
+ in
+    x=x+x
+ end

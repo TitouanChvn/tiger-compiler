@@ -1,0 +1,15 @@
+let 
+    type coordinate = { x: int, y: int }
+    type point = {nom: string, coordonnees: coordinate}
+    type triangle = {point1: point, point2: point , point3: point}
+    var coordorigine : coordinate := coordinate {x=0, y=0}
+    var origine : point :=  point {nom="origine",coordonnees=coordorigine}
+    var coord1 : coordinate := coordinate {x=0,y=1}
+    var coord2 := coordinate {x=1,y=0}
+    var pt1 :point := point {nom="point1",coordonnees=coord1}
+    var pt2 := point {nom="point2",coordonnees=coord2}
+    var montriangle : triangle := triangle {point1=origine,point2=pt1,point3=pt2}
+
+in
+
+end

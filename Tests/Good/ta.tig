@@ -1,0 +1,10 @@
+let
+    type a = string
+    type b = a
+    var a:int := 1
+
+in
+    while a < 10 do (
+        a := a + 1
+    )
+end

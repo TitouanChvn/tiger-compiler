@@ -1,0 +1,10 @@
+let 
+    function add(x: int, y: int): int = x + y 
+in 
+    add(2, 3) 
+end, 
+let 
+    function multiplication(a:int,b:int)= a * b 
+in 
+    multiplication(3,4) 
+end 

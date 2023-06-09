@@ -1,0 +1,6 @@
+let
+    type MyType = { A : int, B : int }
+    var myvar : MyType := MyType { A = "oui", B = 2, C = 3}
+in
+    
+end

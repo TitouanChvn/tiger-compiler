@@ -1,0 +1,7 @@
+let
+    var a : string := "hello"
+in
+    while a do (     
+        nil
+    )
+end

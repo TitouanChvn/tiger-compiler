@@ -1,0 +1,5 @@
+let
+    type char_list = array of string
+in
+    
+end

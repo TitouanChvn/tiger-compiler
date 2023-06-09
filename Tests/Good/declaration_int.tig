@@ -1,0 +1,11 @@
+let 
+    var a : int :=10
+    var b : string:= "abc"
+    var c : int :=12
+    var d : int:= 40
+    var e : int := d+10
+in
+    for i:=1 to 10 do
+        a=a+1
+    end
+end

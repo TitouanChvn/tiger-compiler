@@ -1,0 +1,8 @@
+let 
+    function factorit(n:int):int= 
+        if n=0
+            then 1
+            else for i:=1 to n-1 do n*(n-i)
+in 
+    factorit(10)
+

@@ -1,0 +1,10 @@
+let 
+    function multiplication(a:int,b:int):int=
+        a*b
+    function incrementmutlitiplication(c:int,d:int):int=
+        c+multiplication(c,d)
+in 
+    incrementmutlitiplication(5,6)
+end
+
+    
